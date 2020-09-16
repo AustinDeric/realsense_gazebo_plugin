@@ -4,8 +4,7 @@
 
 namespace {
 std::string extractCameraName(const std::string &name);
-sensor_msgs::CameraInfo cameraInfo(const sensor_msgs::Image &image,
-                                   float horizontal_fov);
+sensor_msgs::CameraInfo cameraInfo(const sensor_msgs::Image &image, float horizontal_fov);
 }
 
 namespace gazebo {
